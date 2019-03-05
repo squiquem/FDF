@@ -6,7 +6,7 @@
 /*   By: squiquem <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/14 19:09:49 by squiquem          #+#    #+#             */
-/*   Updated: 2018/01/16 23:32:00 by squiquem         ###   ########.fr       */
+/*   Updated: 2019/03/05 16:30:06 by squiquem         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@
 # define SIZE_W 2
 # define SIZE_H 2
 
-# define WINDOW_HEIGTH 1000
-# define WINDOW_WIDTH 2000
+# define WINDOW_HEIGTH 600
+# define WINDOW_WIDTH 1200
 
 # define MOVE -100
 # define ZOOM_IN 1.1
@@ -138,6 +138,7 @@ int				get_color(double z, t_env *e);
 char			set_color_b10(char *s, t_env *e);
 char			set_color_b16(char *base, char *s, t_env *e);
 
+int				quit(void);
 void			free_tab(char **str);
 void			get_center(t_env *e);
 void			draw_reload(t_env *e);
