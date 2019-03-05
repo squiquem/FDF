@@ -16,17 +16,17 @@ Covered concepts:
 
 The program takes as parameter a file like this:
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 3 3 0 0 3 3 0 0 0 3 3 3 3 3 0 0 0
-0 0 3 3 0 0 3 3 0 0 0 0 0 0 0 3 3 0 0
-0 0 3 3 0 0 3 3 0 0 0 0 0 0 0 3 3 0 0
-0 0 3 3 3 3 3 3 0 0 0 0 3 3 3 3 0 0 0
-0 0 0 3 3 3 3 3 0 0 0 3 3 0 0 0 0 0 0
-0 0 0 0 0 0 3 3 0 0 0 3 3 0 0 0 0 0 0
-0 0 0 0 0 0 3 3 0 0 0 3 3 3 3 3 3 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 <br/>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 <br/>
+0 0 3 3 0 0 3 3 0 0 0 3 3 3 3 3 0 0 0 <br/>
+0 0 3 3 0 0 3 3 0 0 0 0 0 0 0 3 3 0 0 <br/>
+0 0 3 3 0 0 3 3 0 0 0 0 0 0 0 3 3 0 0 <br/>
+0 0 3 3 3 3 3 3 0 0 0 0 3 3 3 3 0 0 0 <br/>
+0 0 0 3 3 3 3 3 0 0 0 3 3 0 0 0 0 0 0 <br/>
+0 0 0 0 0 0 3 3 0 0 0 3 3 0 0 0 0 0 0 <br/>
+0 0 0 0 0 0 3 3 0 0 0 3 3 3 3 3 3 0 0 <br/>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 <br/>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 <br/>
 
 Each number represents the height coordinate of a point at the 2D position in the table. Our task was to translate this into a visual height map.
 ____
@@ -50,10 +50,10 @@ ____
 
 ## Screenshots
 
-42.fdf
+42.fdf<br/>
 ![Rendu 1](https://github.com/squiquem/FDF/blob/master/screenshots/42-fdf.PNG)
 
-IGN
+IGN<br/>
 ![Rendu 2](https://github.com/squiquem/FDF/blob/master/screenshots/IGN-fdf.PNG)
 
 Mars
